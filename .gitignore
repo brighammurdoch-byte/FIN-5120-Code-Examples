@@ -1,0 +1,8 @@
+# Security: Never commit environment variables with keys
+.env 
+# .env is the file that contains your private key and adress. It is in 
+# this file so git will ignore it and they will stay safely on your computer!
+
+# Python & Virtual Environments
+__pycache__/
+venv/
