@@ -3,15 +3,15 @@
 # (Never share your private key!) 
 """ Note: Run this program once. The program takes your public address and private key and stores 
 them in the ".env" file. If you run this program again, it will make you new private keys
-and replace the old keys in the .env file. If you loose your keys (particularly your 
+and replace the old keys in the .env file. If you lose your keys (particularly your 
 private key) you will be unable to access any funds on or transactions done with your 
 wallet (you can always make a new wallet but keep this in mind). """
 
 from eth_account import Account
 import secrets
 
-# Main is what runs when you hit the play button or otherwise run this file. Inside this "main()" funciton we have
-# the "generate_wallet()" function, wich is the function that will actualy generate the wallet.
+# Main is what runs when you hit the play button or otherwise run this file. Inside this "main()" function we have
+# the "generate_wallet()" function, which is the function that will actually generate the wallet.
 def main():
     wallet = generate_wallet()
     print(f"Your new Ethereum Testnet Wallet: {wallet[0]}")

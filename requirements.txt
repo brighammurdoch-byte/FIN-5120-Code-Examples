@@ -1,2 +1,9 @@
+# INSTRUCTIONS:
+# 1. Open your terminal or command prompt in this folder.
+# 2. Run the following command to install the necessary libraries:
+#    pip install -r requirements.txt
+
 web3
 python-dotenv
+
+# These are the requirements. They are necessary libraries your computer needs to run the code.
