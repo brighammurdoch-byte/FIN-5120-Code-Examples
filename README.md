@@ -1,4 +1,4 @@
-# FIN 5120: Code Examples
+# FIN 5120: Blockchain Lab!!!
 
 Welcome to the blockchain lab for FIN 5120. This project contains Python scripts for the class.
 
